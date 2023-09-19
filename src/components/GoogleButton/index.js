@@ -6,7 +6,7 @@ import Button from 'components/Button'
 function GoogleButton({ responseGoogle, text }) {
   return (
     <GoogleLogin
-      clientId={process.env.ID_CLIENTE}
+      clientId={"320577280356-gug73g7h2hqcas8cseu30equu7m3sjoi.apps.googleusercontent.com"}
       render={renderProps => (
         <Button
           color="googleColor"
